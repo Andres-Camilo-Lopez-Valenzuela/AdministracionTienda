@@ -1,3 +1,4 @@
 # Este es el archivo Principal
+import modulos.ui as ui
 
-print('Bienvenido al administrador')
+ui.men1()
