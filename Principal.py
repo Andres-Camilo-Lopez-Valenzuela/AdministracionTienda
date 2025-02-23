@@ -14,6 +14,9 @@ except ValueError:
 if opcion is not None:
     match opcion:
         case 1:
-            print('Funcionando de momento')
-        case  _:
-            print('Tambien esta funcionando')
+            ui.men2()
+        case 2:
+            ui.men3()
+        case _:
+            print('Opcion no valida 🤐')
+            
